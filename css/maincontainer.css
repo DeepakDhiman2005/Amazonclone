@@ -214,8 +214,8 @@ img{ cursor: pointer; }
     scroll-behavior: smooth;
     background-color: white;
 }
-.side-scroll-box::-webkit-scrollbar-thumb{
-    background-color: rgb(150, 150, 150);
+.side-scroll-container:hover .side-scroll-box::-webkit-scrollbar-thumb{
+    background-color: rgb(160, 160, 160);
     border: 5px solid white;
     border-radius: 4rem;
 }
