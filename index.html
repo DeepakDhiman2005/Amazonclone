@@ -1,0 +1,438 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/amazon_logo.webp" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/maincontainer.css">
+    <title>Amazon_clone.com. spend less. smile more</title>
+</head>
+
+<body>
+    <!-- ======================================================================== -->
+    <!-- ----------------------------- Navbar ---------------------------------- -->
+    <!-- ======================================================================== -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container1">
+                <img src="img/amazon_logo2.png" alt="image" class="hov">
+                <img src="img/deliver_to_india_img.png" style="margin: 0px 2px 0px 2px;" alt="image" class="hov">
+                <div class="search-bar" id="searchbarid">
+                    <select name="" id="All">
+                        <option selected="selected" data-nav-selected="0">All</option>
+                        <option value="Game">Game</option>
+                        <option value="I am Good Boy">I am Good Boy</option>
+                    </select>
+                    <input type="text" name="" id="inputid" placeholder="">
+                    <button class="search_icon" id="searchbtn">
+                        <img src="img/search_icon_sin.png" alt="image">
+                    </button>
+                </div>
+                <div class="flag-img hov" id="hoverflag">
+                    <img src="img/flag_img.png" alt="image">
+                    <div class="down-arrow"></div>
+                </div>
+                <div class="side-text-one hov" id="downsigninplateid">
+                    <div class="side-text-one-top">Hello, sign in</div>
+                    <div class="side-text-one-bottom">
+                        <p>Account & Lists</p>
+                        <div class="down-arrow"></div>
+                    </div>
+                </div>
+                <div class="side-text-one hov">
+                    <div class="side-text-one-top">Returns</div>
+                    <div class="side-text-one-bottom">
+                        <p>& Orders</p>
+                        <!-- <div class="down-arrow"></div> -->
+                    </div>
+                </div>
+                <img src="img/deliver_sin_img.png" alt="image">
+            </div>
+            <div class="nav-container2">
+                <div class="bottom-text-one hov" id="runsidebarid">
+                    <div class="burger">
+                        <div class="burger-line"></div>
+                        <div class="burger-line"></div>
+                        <div class="burger-line"></div>
+                    </div>
+                    <p>All</p>
+                </div>
+                <div class="bottom-text-two">
+                    <p class="hov">Today's Deals</p>
+                    <p class="hov">Customer Service</p>
+                    <p class="hov">Registry</p>
+                    <p class="hov">Gift Cards</p>
+                    <p class="hov">Sell</p>
+                </div>
+            </div>
+        </nav>
+        <div class="account-and-list-box" id="acanliboxid">
+            <div class="top-side-accountbox">
+                <button>Sign in</button>
+                <div class="signinbox-message-style">
+                    <p>New customer?</p>
+                    <a
+                        href="https://www.amazon.com/ap/register?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3F_encoding%3DUTF8%26ref_%3Dnav_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&">
+                        Start here.
+                    </a>
+                </div>
+            </div>
+            <div class="center-side-accountbox-line"></div>
+            <div class="bottom-side-accountbox">
+                <div class="bottom-side-accountbox-left">
+                    <p>Your Lists</p>
+                    <a href="">Create a List</a>
+                    <a href="">Find a List or Registry</a>
+                    <a href="">AmazonSmile Charity Lists</a>
+                </div>
+                <div class="center-side-accountbox-center"></div>
+                <div class="bottom-side-accountbox-right">
+                    <p>Your Account</p>
+                    <a href="">Account</a>
+                    <a href="">Orders</a>
+                    <a href="">Recommendations</a>
+                    <a href="">Browsing History</a>
+                    <a href="">Watchlist</a>
+                    <a href="">Video Purchases & Rentals</a>
+                    <a href="">Kindly Unlimited</a>
+                    <a href="">content & devices</a>
+                    <a href="">Subscribe & Save Items</a>
+                    <a href="">Memberships & Subscriptions</a>
+                    <a href="">Music Library</a>
+                </div>
+            </div>
+        </div>
+        <div class="language-change-box-style" id="lanchboxid">
+            <div class="top-layer-style">
+                <p>Change Language</p>
+                <a href="">Learn more</a>
+            </div>
+            <div class="center-layer-style">
+                <div class="center-layer-box">
+                    <div class="circle-btn">
+                        <div class="circle-btn-center"></div>
+                    </div>
+                    <p>English</p>
+                </div>
+                <div class="center-side-accountbox-line" style="margin: 10px 0px 10px 0px;"></div>
+                <div class="center-layer-box">
+                    <div class="circle-btn">
+                        <div class="circle-btn-center"></div>
+                    </div>
+                    <p>español - ES</p>
+                </div>
+                <div class="center-layer-box">
+                    <div class="circle-btn">
+                        <div class="circle-btn-center"></div>
+                    </div>
+                    <p>العربية - AR</p>
+                </div>
+                <div class="center-layer-box">
+                    <div class="circle-btn">
+                        <div class="circle-btn-center"></div>
+                    </div>
+                    <p>Deutsch - DE</p>
+                </div>
+                <div class="center-layer-box">
+                    <div class="circle-btn">
+                        <div class="circle-btn-center"></div>
+                    </div>
+                    <p>עברית - HE</p>
+                </div>
+                <div class="center-layer-box">
+                    <div class="circle-btn">
+                        <div class="circle-btn-center"></div>
+                    </div>
+                    <p>한국어 - KO</p>
+                </div>
+                <div class="center-layer-box">
+                    <div class="circle-btn">
+                        <div class="circle-btn-center"></div>
+                    </div>
+                    <p>português - PT</p>
+                </div>
+                <div class="center-layer-box">
+                    <div class="circle-btn">
+                        <div class="circle-btn-center"></div>
+                    </div>
+                    <p>中文 (简体) - ZH</p>
+                </div>
+                <div class="center-layer-box">
+                    <div class="circle-btn">
+                        <div class="circle-btn-center"></div>
+                    </div>
+                    <p>中文 (繁體) - ZH</p>
+                </div>
+                <div class="center-side-accountbox-line" style="margin: 10px 0px 10px 0px;"></div>
+            </div>
+            <div class="top-layer-style">
+                <p>Change currency</p>
+                <a href="">Learn more</a>
+            </div>
+            <div class="usdollermessage">
+                <p>$ - USD - US Doller</p>
+                <a href="">Change</a>
+            </div>
+            <div class="center-side-accountbox-line" style="margin: 10px 0px 10px 0px;"></div>
+            <div class="last-message-on-lang">
+                <img src="img/flag_img.png" alt="img"> You are shopping
+                on Amazon.com
+            </div>
+            <a href="" class="last-message-on-lang2">Change country/region.</a>
+        </div>
+
+        <div class="search-lists-box" id="searchlistboxid">
+            <div class="search-list-content">
+                <p>Grover</p>
+                <div class="cross-on-list">
+                    <div class="cross-line-on-list"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ======================================================================== -->
+    <!-- ----------------------------- Sidebar ---------------------------------- -->
+    <!-- ======================================================================== -->
+    <div class="side-bar-box-style" id="sidebarid">
+        <div class="side-bar">
+            <div class="side-bar-top-view">
+                <div class="side-bar-top-view-left">
+                    <img src="img/man_logo.png" alt="img">
+                    <p>Hello, Sign in</p>
+                </div>
+                <div class="side-bar-top-view-right" id="crossid">
+                    <div class="cross-box">
+                        <div class="cross-line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="side-bar-main-view">
+                <h1>Digital Content & Devices</h1>
+                <div class="sidebar-content">
+                    <p>Amazon Music</p>
+                    <div class="right-arrow"></div>
+                </div>
+                <div class="sidebar-content">
+                    <p>Kindle E-readers & Books</p>
+                    <div class="right-arrow"></div>
+                </div>
+                <div class="sidebar-content">
+                    <p>Appstore for Android</p>
+                    <div class="right-arrow"></div>
+                </div>
+                <div class="new-line-drow">line</div>
+
+                <h1>Shop By Department</h1>
+                <div class="sidebar-content">
+                    <p>Electronics</p>
+                    <div class="right-arrow"></div>
+                </div>
+                <div class="sidebar-content">
+                    <p>Computers</p>
+                    <div class="right-arrow"></div>
+                </div>
+                <div class="sidebar-content">
+                    <p>Smart Home</p>
+                    <div class="right-arrow"></div>
+                </div>
+                <div class="sidebar-content">
+                    <p>Arts & Crafts</p>
+                    <div class="right-arrow"></div>
+                </div>
+
+                <div class="hidden-see-all-box" id="hidelist">
+                    <div class="new-line-drow">line</div>
+                    <div class="sidebar-content">
+                        <p>Automotive</p>
+                        <div class="right-arrow"></div>
+                    </div>
+                    <div class="sidebar-content">
+                        <p>Women's Fashion</p>
+                        <div class="right-arrow"></div>
+                    </div>
+                    <div class="sidebar-content">
+                        <p>Girls' Fashion</p>
+                        <div class="right-arrow"></div>
+                    </div>
+                    <div class="sidebar-content">
+                        <p>Boys' Fashion</p>
+                        <div class="right-arrow"></div>
+                    </div>
+                    <div class="sidebar-content">
+                        <p>Software</p>
+                        <div class="right-arrow"></div>
+                    </div>
+                    <div class="sidebar-content">
+                        <p>Toys and Games</p>
+                        <div class="right-arrow"></div>
+                    </div>
+                    <div class="sidebar-content">
+                        <p>Video Games</p>
+                        <div class="right-arrow"></div>
+                    </div>
+                </div>
+                <div class="sidebar-content sidebar-content-down-arrow" id="downlist1id">
+                    <p>See All</p>
+                    <div class="down-arrow2" id="downarrowid"></div>
+                </div>
+
+                <div class="new-line-drow">line</div>
+
+                <h1>Programs & Features</h1>
+                <div class="sidebar-content">
+                    <p>Gift Cards</p>
+                    <div class="right-arrow"></div>
+                </div>
+                <div class="sidebar-content">
+                    <p>#FoundItOnAmazon</p>
+                    <div class="right-arrow"></div>
+                </div>
+                <div class="sidebar-content">
+                    <p>Amazon Live</p>
+                    <div class="right-arrow"></div>
+                </div>
+                <div class="sidebar-content">
+                    <p>International Shopping</p>
+                    <div class="right-arrow"></div>
+                </div>
+
+                <div class="hidden-see-all-box" id="hidelist2">
+                    <div class="new-line-drow">line</div>
+                    <div class="sidebar-content">
+                        <p>Amazon Second Change</p>
+                        <div class="right-arrow"></div>
+                    </div>
+                </div>
+                <div class="sidebar-content sidebar-content-down-arrow" id="downlist2id">
+                    <p>See All</p>
+                    <div class="down-arrow2" id="downarrow2"></div>
+                </div>
+                <div class="new-line-drow">line</div>
+
+                <h1>Help & Settings</h1>
+                <div class="sidebar-content">
+                    <p>Your Account</p>
+                </div>
+                <div class="sidebar-content" style="justify-content: flex-start;">
+                    <img src="img/browser_logo_img.png" alt="image" style="border-radius: 40px;">
+                    <p style="margin-left: 10px;">English</p>
+                </div>
+                <div class="sidebar-content" style="justify-content: flex-start;">
+                    <img src="img/flag_img.png" alt="image">
+                    <p style="margin-left: 10px;">United States</p>
+                </div>
+                <div class="sidebar-content">
+                    <p>Customer Service</p>
+                </div>
+                <div class="sidebar-content">
+                    <p>Sign in</p>
+                </div>
+                <div class="sidebar-content">
+                    <p style="color: orangered; text-decoration: underline;">
+                        Website create name is Deepak Dhiman!
+                    </p>
+                </div>
+
+                <div style="margin: 35px 0px 35px 0px; color: white;">space</div>
+            </div>
+        </div>
+    </div>
+    <!-- ======================================================================== -->
+    <!-- ----------------------------- Main-content ----------------------------- -->
+    <!-- ======================================================================== -->
+    <main>
+        <div class="black-box" id="blackboxid"></div>
+        <!-- https://programmerdprogramming.on.drv.tw/Ben10coolwebside/ -->
+        <div class="adds-top-bar-container">
+            <img src="img/amazon_add_img3.png" alt="image" id="imgid">
+            <div class="left-side-arrow-box" id="leftsideid">
+                <div class="left-side-arrow"></div>
+            </div>
+            <div class="right-side-arrow-box" id="rightsideid">
+                <div class="right-side-arrow"></div>
+            </div>
+        </div>
+        <div class="start-containers">
+            <div class="starting-message-container">
+                <p>
+                    You are on amazon.com. You can also shop on Amazon India for millions of 
+                    products with fast local delivery.
+                </p>
+                <a href="">Click here to go to amazon.in</a>
+            </div>
+            <!-- =========================================================================== -->
+            <!-- -------------------------- cards-containers-------------------------------- -->
+            <!-- =========================================================================== -->
+            <div class="cards-container-style">
+                <div class="card-style">
+                    <h1>Gaming accessories</h1>
+                    <div class="card-center-top-side">
+                        <img src="img/head_phone_img.png" alt="image-link">
+                        <img src="img/keyboard_img.png" alt="image-link">
+                    </div>
+                    <div class="card-center-bottom-side">
+                        <img src="img/computer_mice.png" alt="image-link">
+                        <img src="img/chairs_img.png" alt="image-link">
+                    </div>
+                    <a href="">See more</a>
+                </div>
+
+                <div class="card-style">
+                    <h1>Shop by Category</h1>
+                    <div class="card-center-top-side">
+                        <img src="img/product_link_num1.png" alt="image-link">
+                        <img src="img/product_link_num2.png" alt="image-link">
+                    </div>
+                    <div class="card-center-bottom-side" style="margin-bottom: 22px;">
+                        <img src="img/product_link_num3.png" alt="image-link">
+                        <img src="img/product_link_num4.png" alt="image-link">
+                    </div>
+                    <a href="">Shop now</a>
+                </div>
+
+                <div class="card-style">
+                    <h1>Easy returns</h1>
+                    <div class="card-center-top-side">
+                        <img src="img/the_big_link_img_ama.png" alt="image-link" 
+                        style="width: 246px; margin-bottom: 10px;">
+                    </div>
+                    <a href="">Learn more</a>
+                </div>
+            </div>
+
+            <div class="cards-container-style">
+                <div class="card-style">
+                    <h1 style="font-size: 23px;">Health & Personal Care</h1>
+                    <div class="card-center-top-side">
+                        <img src="img/health_and_personal_care.png" alt="image-link" 
+                        style="width: 246px; margin-bottom: 10px;">
+                    </div>
+                    <a href="">Shop now</a>
+                </div>
+
+                <div class="card-style">
+                    <h1 style="font-size: 23px;">Computers & Accessories</h1>
+                    <div class="card-center-top-side">
+                        <img src="img/Computers_&_Accessories.png" alt="image-link" 
+                        style="width: 246px; margin-bottom: 10px;">
+                    </div>
+                    <a href="">Shop now</a>
+                </div>
+
+                <div class="card-style">
+                    <img src="img/amazon_adds_img.png" alt="image">
+                    <div class="amazon-adds-message">
+                        <p>Sign in for the best experience</p>
+                        <button>Sign in securly</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="js/script.js"></script>
+
+</html>
