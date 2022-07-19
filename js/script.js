@@ -161,8 +161,10 @@ rightsideid.addEventListener('click', ()=>{
 });
 
 let imgid = document.getElementById('imgid');
+let cardcontainerid = document.getElementById('cardcontainerid');
 if (window.innerHeight < 502) {
     imgid.style.height = '150%';
     imgid.style.width = '150%';
     imgid.style.marginLeft = '-18rem';
+    cardcontainerid.style.marginTop = '-10rem';
 }

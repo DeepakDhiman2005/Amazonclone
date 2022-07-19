@@ -4,6 +4,10 @@
     --color-num1: rgb(201, 95, 95);
 }
 
+main{ background-color: whitesmoke; }
+
+img{ cursor: pointer; }
+
 .adds-top-bar-container{
     width: 100%;
     overflow: hidden;
@@ -72,12 +76,14 @@
 }
 
 .start-containers{
-    position: absolute;
+    /* position: absolute;
     top: 23rem;
-    width: 100%;
+    width: 100%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: whitesmoke;
+    margin-top: -22rem;
 }
 
 .starting-message-container{
@@ -118,6 +124,11 @@
     background-color: white;
     padding: 15px;
     margin-bottom: 15px;
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .card-style h1{
     font-size: 25px;
@@ -127,6 +138,8 @@
     text-decoration: none;
     color: cadetblue;
     cursor: pointer;
+    width: 85%;
+    margin-top: 10px;
 }
 .card-style a:hover{
     text-decoration: underline;
@@ -136,3 +149,78 @@
 /* .card-center-top-side{} */
 
 .card-center-bottom-side{ margin-bottom: 10px; }
+
+.amazon-card-adds-message{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    background-color: transparent;
+}
+.amazon-card-adds-message img{ width: 100%; }
+
+.amazon-adds-message{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+}
+.amazon-adds-message p{
+    font-size: 20px;
+    font-family: system-ui;
+    text-align: center;
+}
+.amazon-adds-message button{
+    margin-top: 12px;
+    padding: 7px;
+    width: 91%;
+    font-size: 12px;
+    background: linear-gradient(15deg, #fdbb00, #ffc800);
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 6px silver;
+    border-radius: 4px;
+    font-family: sans-serif;
+    margin-top: 2rem;
+}
+.amazon-adds-message button:hover{
+    background: linear-gradient(15deg, #fdba00e0, #ffc800dc);
+}
+
+.side-scroll-container{
+    display: flex;
+    margin: 12px;
+    padding: 10px;
+    margin-top: 0px;
+    background-color: white;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.side-scroll-container p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.side-scroll-box{
+    margin-bottom: 12px;
+    width: 100%;
+    overflow-x: scroll;
+}
+.side-scroll-box::-webkit-scrollbar{
+    scroll-behavior: smooth;
+    background-color: white;
+}
+.side-scroll-box::-webkit-scrollbar-thumb{
+    background-color: rgb(150, 150, 150);
+    border: 5px solid white;
+    border-radius: 4rem;
+}
+
+.images-container{
+    display: flex;
+    align-items: center;
+}
